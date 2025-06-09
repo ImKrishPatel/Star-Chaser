@@ -89,5 +89,5 @@ function showPauseOverlay() {
   text("Paused", width / 2, height / 2);
   textSize(18);
   fill(255, 255, 255, pauseAlpha + 30);
-  text("Click mouse to resume", width / 2, height / 2 + 50);
+  text("Click mouse or Press Spacebar to resume", width / 2, height / 2 + 50);
 }
