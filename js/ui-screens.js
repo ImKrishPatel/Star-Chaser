@@ -22,7 +22,7 @@ function showStartScreen() {
   fill(255);
   textFont('Verdana');
   textSize(18);
-  text("CONTROLS:\n← ↑ → ↓ or WASD to move\nMouse click to pause\nR to reset\nEsc to go to main menu\nCollect all stars, avoid rockets!", bx, by);
+  text("CONTROLS:\n← ↑ → ↓ or WASD to move\nMouse click/ Spacebar to pause\nR to reset\nEsc to go to main menu\nCollect all stars, avoid rockets!", bx, by);
 
   textSize(18);
   fill(220, 220, 255);
