@@ -41,11 +41,10 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  // Create a static space background for lagging issue
+  // Creating a tinted background once to avoid lag
   bgCanvas = createGraphics(width, height);   
-  bgCanvas.imageMode(CENTER);
   bgCanvas.tint(200);
-  bgCanvas.image(imgSpace, width/2, height/2, width, height);
+  bgCanvas.image(imgSpace, 0, 0, width, height);
 
   bgSound.setLoop(true);
   bgSound.setVolume(0.3);
